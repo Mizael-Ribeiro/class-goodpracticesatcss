@@ -1,0 +1,49 @@
+.recipe{
+  background: #E5E5E5;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 5rem;
+  padding-left: 5rem;
+  justify-content: space-between;
+
+  &__card{
+    background: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    margin-right: 5rem;
+    width: 25%;
+
+  }
+
+  &__content{
+    border: 1px solid #c4c4c4;
+    padding: 20px;
+  }
+
+  &__title{
+    font-size: 1.3em;
+    margin-bottom: 15px;
+  }
+
+  &__description{
+    font-size: 1em;
+    line-height: 1.3em;
+    margin-bottom: 15px;
+  }
+
+  &__button{
+    color: #ffffff;
+    background: #8D0606;
+    border: 0;
+    border-radius: 5px;
+    font-size: 0.8em;
+    padding: 5px 25px;
+    cursor: pointer;
+
+    &:hover {
+      background: #e41212;
+      transition: .2s ease-in-out;
+    }
+  }
+}

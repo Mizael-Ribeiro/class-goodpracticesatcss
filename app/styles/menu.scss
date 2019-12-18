@@ -1,0 +1,33 @@
+
+.menu{
+  background: #f9f9f9;
+  margin: 0 auto;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  &__lista{
+    display: flex;
+  }
+
+  &__item{
+    margin-left: 20px;
+    list-style: none;
+
+    &:first-child{
+      margin-left: 0;
+    }
+  }
+
+  &__link{
+    text-decoration: none;
+    color: #747476;
+
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+}
